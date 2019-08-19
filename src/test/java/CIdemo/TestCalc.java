@@ -8,4 +8,9 @@ public class TestCalc {
 	public void testAdd() {
 		assertEquals(15, new Calc().add(10, 5));
 	}
+	
+	@Test
+	public void testSubtract() {
+		assertEquals(15, new Calc().subtract(20, 5)):
+	}
 }
